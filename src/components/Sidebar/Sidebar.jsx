@@ -1,7 +1,8 @@
 import React from 'react';
 import './Sidebar.css';
 import MainLogo from '../svgs/MainLogo';
-import MenuLink from './MenuLink';
+import NavLinks from './NavLinks'
+import SoNetLinks from './SoNetLinks';
 
 const Sidebar = () => {
     return (
@@ -14,41 +15,21 @@ const Sidebar = () => {
                 </div>
 
                 <span className='divider' />
-
                 <nav className='menu'>
-                    <ul className='menu-links'>
-                        <li>
-                            <MenuLink href='/news' active>Новости</MenuLink>
-                        </li>
-                        <li>
-                            <MenuLink href='/teams'>Команды</MenuLink>
-                        </li>
-                        <li>
-                            <MenuLink href='/players'>Игроки</MenuLink>
-                        </li>
-                    </ul>
+                    <NavLinks />
                 </nav>
             </div>
 
             <span className='divider' />
-
             <div>
                 <nav className='menu'>
-                    <ul className='menu-links'>
-                        <li>
-                            <MenuLink href='/instagram'>Instagram</MenuLink>
-                        </li>
-                        <li>
-                            <MenuLink href='/twitter'>Twitter</MenuLink>
-                        </li>
-                    </ul>
+                    <SoNetLinks />
                 </nav>
             </div>
 
             <span className='divider' />
-
             <p className='copyright'>Copyright © 2019 NBA</p>
-        </aside>
+        </aside >
     )
 };
 
