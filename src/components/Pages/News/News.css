@@ -16,10 +16,8 @@
     border: 1px solid var(--base-border);
     border-radius: 4px 4px 4px 4px;;
      width: 233px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
     margin: 10px;
+    overflow: hidden;
 }
 
 .article-container img {
@@ -37,5 +35,6 @@
 
 .text-container {
     align-self: center;
-    width: 214px;
+    padding: 0 10px;
+
 }

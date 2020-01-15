@@ -39,7 +39,7 @@ const Sidebar = () => {
             <span className='divider' />
             <p className='copyright'>Copyright © 2019 NBA</p>
         </aside >
-    )
+    );
 };
 
 export default Sidebar;

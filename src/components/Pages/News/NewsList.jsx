@@ -12,9 +12,8 @@ const NewsList = (props) => {
         </article>
     )
     return (
-        <div>{listItems}</div>
+        <div> {listItems} </div>
     );
 };
 
 export default NewsList;
-
