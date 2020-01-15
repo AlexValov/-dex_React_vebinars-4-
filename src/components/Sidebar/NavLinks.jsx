@@ -6,13 +6,13 @@ const NavLinks = () => {
     return (
         <ul className='menu-links'>
             <li>
-                <MenuLink href='/news' active>Новости</MenuLink>
+                <MenuLink to='/news' active>Новости</MenuLink>
             </li>
             <li>
-                <MenuLink href='/teams'>Команды</MenuLink>
+                <MenuLink to='/teams'>Команды</MenuLink>
             </li>
             <li>
-                <MenuLink href='/players'>Игроки</MenuLink>
+                <MenuLink to='/players'>Игроки</MenuLink>
             </li>
         </ul>
     );
